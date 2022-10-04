@@ -1,6 +1,7 @@
 # HMvC
-Code of "High-order Multi-view Clustering for Generic Data"
-Coming soon.
+Code of "High-order Multi-view Clustering for Generic Data"  
+
+Completed Version is Coming Soon.
 
 # Citing
 If you find this work is helpful to your research, please consider citing our paper:
