@@ -1,9 +1,16 @@
-# HMvC
+# HMvC/AHMvC
 Code of "High-order Multi-view Clustering for Generic Data"  
 
-Code is not completed now resulting from our paper is under review. Once the article is accepted, the source code will be open as soon as possible.
+## Run and Reproduce
 
-# Citing
+### Environment
+All main needed packages are listed in ***requirenments.txt***. You anstall all of them by ***conda install --yes --file requirements.tx***. If any problem, Google or Baidu (bing...) can help you.
+### Run
+All ***.pys*** have detailed annotation. You can simply run ***reproduce.py*** to reproduce results in paper.
+### Other datasets
+You can down all datasets at <https://drive.google.com/drive/folders/1Fejdj1_2MikUSUyjhs3zUucFZMiX38tQ?usp=sharing>.
+
+## Citation
 If you find this work is helpful to your research, please consider citing our paper:
 
 ```
