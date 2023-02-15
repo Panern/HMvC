@@ -1,0 +1,6 @@
+datasets: ["Cal101-7", "Cal101-20"]
+
+parameters:
+  alpha: [1e-3, 1e-3]
+  beta: [10, 10]
+  mu: [1e2, 1e3]

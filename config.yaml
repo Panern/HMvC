@@ -1,0 +1,24 @@
+datasets: ["Cal101-7", "Cal101-20", "Citeseer", "ACM",  "DBLP", "IMDB", "Amazon_photos", "Amazon_computers", "AIDS"]
+datasets: ["Cal101-7"]
+#parameters:
+#  alpha: [1e-3,]
+#  beta: [1e2,  1e4]
+#  mu: [1e2]
+# parameters:
+#   alpha: [ 1e-3, 1, 10, 1e2, 1e3,  1e4 ]
+#   beta: [ 1e-3, 1, 10, 1e2, 1e3,  1e4 ]
+#   mu: [ 1e-3, 1, 10, 1e2, 1e3,  1e4, 1e5 ]
+
+parameters:
+  alpha: [ 1e-3, 1, 10, 50, 1e2, 3e2, 5e2, 1e3, 3e2, 8e3, 1e4 ]
+  beta: [ 1e-3, 1, 10, 50, 1e2, 3e2, 1e3, 3e2, 8e3, 1e4 ]
+  mu: [ 1e-3, 1, 10, 50, 1e2, 3e2, 1e3, 3e2, 8e3, 1e4 ]
+
+#parameters:
+#  alpha: [ 1]
+#  beta: [  10]
+#  mu: [ 10]
+
+num_anchors: [50, 100]
+
+
