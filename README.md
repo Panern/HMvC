@@ -4,7 +4,7 @@ Code of "High-order Multi-view Clustering for Generic Data"
 ## Run and Reproduce
 
 ### Environment
-All main needed packages are listed in ***requirenments.txt***. You anstall all of them by ***conda install --yes --file requirements.txt***. If any problem, Google or Baidu (bing...) can help you.
+All main needed packages are listed in ***requirenments.txt***. You can install all of them by ***conda install --yes --file requirements.txt***. If any problem, Google or Baidu (bing...) can help you.
 ### Run
 All ***.pys*** have detailed annotation. You can simply run ***reproduce.py*** to reproduce results in paper.
 ### Other datasets
