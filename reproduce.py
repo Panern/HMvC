@@ -299,11 +299,6 @@ def HMvC_anchor(H, gnd, inds, dataname, order_W=3, num_anchor=100, parameters=No
                     else:
                         loss_last = Loss
                     for v in range(num_view):
-                        # tmp1 = nada[v] * (B_Bt[v] + (alpha + beta) * Im)
-                        # tmp2 = nada[v] * (B_Ht[v] + alpha * Ls[v])
-                        # tmp3 = beta * (U - nada_S + nada[v] * S_[v])
-                        # S_[v] = np.linalg.inv(tmp1).dot(tmp2 + tmp3)
-
                         tmp1 = (B_Bt[v] + (alpha + nada[v] * beta) * Im)
                         tmp2 = B_Ht[v] + alpha * Ls[v]
                         tmp3 = beta * (U - nada_S + nada[v] * S_[v])
